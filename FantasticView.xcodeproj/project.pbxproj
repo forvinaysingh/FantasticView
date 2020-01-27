@@ -14,8 +14,6 @@
 		0988208A23DED0D200E7C794 /* FantasticView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0988208823DED0D200E7C794 /* FantasticView.xcdatamodeld */; };
 		0988208C23DED0D700E7C794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0988208B23DED0D700E7C794 /* Assets.xcassets */; };
 		0988208F23DED0D700E7C794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0988208D23DED0D700E7C794 /* LaunchScreen.storyboard */; };
-		0988209A23DED0D800E7C794 /* FantasticViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988209923DED0D800E7C794 /* FantasticViewTests.swift */; };
-		098820A523DED0D800E7C794 /* FantasticViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098820A423DED0D800E7C794 /* FantasticViewUITests.swift */; };
 		098820B323DED13000E7C794 /* FantasticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 098820B223DED13000E7C794 /* FantasticView.swift */; };
 /* End PBXBuildFile section */
 
@@ -47,11 +45,7 @@
 		0988208E23DED0D700E7C794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0988209023DED0D800E7C794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0988209523DED0D800E7C794 /* FantasticViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0988209923DED0D800E7C794 /* FantasticViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewTests.swift; sourceTree = "<group>"; };
-		0988209B23DED0D800E7C794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		098820A023DED0D800E7C794 /* FantasticViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FantasticViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		098820A423DED0D800E7C794 /* FantasticViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticViewUITests.swift; sourceTree = "<group>"; };
-		098820A623DED0D800E7C794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		098820B223DED13000E7C794 /* FantasticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FantasticView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				0988207E23DED0D200E7C794 /* FantasticView */,
-				0988209823DED0D800E7C794 /* FantasticViewTests */,
-				098820A323DED0D800E7C794 /* FantasticViewUITests */,
 				0988207D23DED0D200E7C794 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,24 +106,6 @@
 				098820B223DED13000E7C794 /* FantasticView.swift */,
 			);
 			path = FantasticView;
-			sourceTree = "<group>";
-		};
-		0988209823DED0D800E7C794 /* FantasticViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				0988209923DED0D800E7C794 /* FantasticViewTests.swift */,
-				0988209B23DED0D800E7C794 /* Info.plist */,
-			);
-			path = FantasticViewTests;
-			sourceTree = "<group>";
-		};
-		098820A323DED0D800E7C794 /* FantasticViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				098820A423DED0D800E7C794 /* FantasticViewUITests.swift */,
-				098820A623DED0D800E7C794 /* Info.plist */,
-			);
-			path = FantasticViewUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,7 +251,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0988209A23DED0D800E7C794 /* FantasticViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				098820A523DED0D800E7C794 /* FantasticViewUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
